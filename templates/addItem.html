@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fast-Food| Add Item</title>
+    <link href="../static/css/main.css" rel="stylesheet" />   
+</head>
+<body class="content-with-image2">
+<!--Header section-->
+<header>
+	<!--Navigation section -->
+    <div class="nav-section">
+        <div class="row">
+			<div class="col-2 user-area">
+                <img src="../static/images/fast-food-bgd.jpg">
+            </div>
+            <div class="col-6">
+                <ul>
+					<li>
+                        <a href="adminUpdateItem.html" class="">Food List</a>
+                    </li>
+                    <li>
+                        <a href="orderItemList.html" class="">Orders List</a>
+                    </li> 
+					<li>
+                        <a href="addItem.html" class="active">Add Food</a>
+                    </li>
+                </ul>
+            </div>            
+        </div>
+    </div>
+</header>
+<!--the body section -->
+<div class="body-section">
+    <div class="row">
+        <div class="">
+            <div class="col-4">
+                <P></P>
+            </div>
+            <div class="col-4">
+                <div class="form-area-section">
+                    <h1 class="text-white text-large">add food item details</h1>
+                    <form method="post" action="adminUpdateItem.html">
+                        <div>
+                            <label for="location" class="text-white">Fast Food name</label>
+                            <input type="text" name="item-name" id="location" class="form-control">
+                        </div>
+                        <div>
+                            <label for="price" class="text-white">Price</label>
+                            <input type="text" name="price" id="price" class="form-control">
+                        </div>
+                        <div>
+                            <label for="food-image" class="text-white">Image</label>
+                            <input type="file" name="item-image" id="food-image" class="form-control">
+                        </div>
+                        <div>
+                            <label for="food-desc" class="text-white"> Description</label>
+                            <textarea name="food-desc" id="item-desc" class="form-control">
+                            </textarea>
+                        </div>
+                        <div>
+                        </div>
+                        <div>
+                            <input type="submit" name="submit"  value="Add Food" id="submit" class="button-addItem">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--- the footer section of the app--->
+<div class="footer-section2">
+    <div class="footer-area">
+    </div>
+    <div class="copy-right-area">
+        <P>&copy; Fast-Food-Fast Challenge 2018</P>
+    </div>
+</div>
+<script src="../static/js/main.js"></script>
+</body>
+</html>

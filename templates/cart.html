@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fast-Food | Add to Cart</title>
+    <link href="../static/css/main.css" rel="stylesheet" />   
+</head>
+<body class="content-with-image2">
+<!--Header section-->
+<header>
+	<!--Navigation section -->
+    <div class="nav-section">
+        <div class="row">
+			<div class="col-2 user-area">
+                <img src="../static/images/fast-food-bgd.jpg">
+            </div>
+            <div class="col-6">
+                <ul>
+					<li>
+                        <a href="index.html" class="">Order Now!</a>
+                    </li>
+                    <li>
+                        <a href="userOrderHistory.html" class="">My Order History</a>
+                    </li>   
+					<li>
+                        <a href="#" class="active">Add to Cart</a>
+                    </li>
+                </ul>
+            </div>            
+        </div>
+    </div>
+</header>
+<!--the body section -->
+<div class="body-section">
+    <div class="row">
+        <div class="">
+            <div class="col-4">
+                <P></P>
+            </div>
+            <div class="col-4">
+                <div class="form-area-section">
+                    <h1 class="text-white text-large">Order now</h1>
+
+					<table class="t">
+						<tr>
+							<th>Order Item</th>
+							<th>Quantity</th>
+						</tr>
+						<tr>
+							<td>Doublicious Sandwich</td>
+						<td>
+						<form action="/cart" method="post">
+							<input type="number" name="t_list" value="t_list">			
+								</td>
+								</tr>
+
+							<div>
+								<input class="btn btn-default" type="submit" value="proceed towards checkout">
+							</div>
+						</form>
+					</table>
+				 </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--- the footer section of the app--->
+<div class="footer-section2">
+    <div class="footer-area">
+    </div>
+    <div class="copy-right-area">
+        <P>&copy; Fast-Food-Fast Challenge 2018</P>
+    </div>
+</div>
+<script src="../static/js/main.js"></script>
+</body>
+</html>
+
