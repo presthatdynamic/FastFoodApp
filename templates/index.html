@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fast-Food | Items</title>
+    <link href="../static/css/main.css" rel="stylesheet" />
+</head>
+<body>
+<!--Header section-->
+<header>
+	 <!--Navigation section -->
+    <div class="nav-section">
+        <div class="row">
+			<div class="col-2 user-area">
+                <img src="../static/images/fast-food-bgd.jpg">
+            </div>
+            <div class="col-6">
+                <ul>
+					<li>
+                        <a href="index.html" class="active">Order Now!</a>
+                    </li>
+                    <li>
+                        <a href="userOrderHistory.html" class="">My Order History</a>
+                    </li>
+					<li>
+						<a href='\logout' >Logout</a>
+					</li>
+                </ul>
+            </div>            
+        </div>
+    </div>
+	</header>
+	<div class="content-with-image" >
+	<div class="row">
+			<div class="col-4">
+				<h1>
+
+				</h1>
+			</div>
+		<div class="col-4">
+			<div class="form-area-section">
+				<div>
+						<strong>3 Items added to cart</strong>
+					</div><br/>
+				<span class="text-white text-large">KFC</span>
+				<form class="f1" action="/index" method="post">					
+					<input type="checkbox" name="food" value="cc" class="form-control"/>2 Pc. Chicken – Combo-20,000Ugshs<br/>
+					<input type="checkbox" name="food" value="ds" class="form-control"/>Doublicious Sandwich--25,000Ugshs<br/>
+					<input type="checkbox" name="food" value="pn" class="form-control"/>Popcorn Nuggets-15,000Ugshs<br/>
+					<input type="checkbox" name="food" value="rp" class="form-control"/>Roast Pork-30,000Ugshs<br/>
+					<a href="#add">Add to cart</a> <br/><br/>					
+					<span class="text-white text-large">MCDonald</span>
+					<input type="checkbox" name="American" value="mp" class="form-control"/>Mashed Potatoes-13,000Ugshs<br/><br/>
+					<input type="checkbox" name="American" value="mc" class="form-control"/>Mac & Cheese-13,000Ugshs<br/><br/>
+					<input type="checkbox" name="American" value="cb" class="form-control"/>Chicken Box-28,000Ugshs<br/><br/>
+					<input type="checkbox" name="American" value="ms" class="form-control"/>Mushroom soup-15,000Ugshs<br/><br/>
+					<a href="#add">Add to cart</a> <br/>
+					<div id="add">
+					<input type="submit" value="Add to cart" class="button-white text-white">					
+					</div>
+				</form>
+			</div>
+
+		</div>
+	</div>
+	
+	<!--the body section -->
+	<div class="footer-section2">
+		<div class="footer-area">
+		</div>
+		<div class="copy-right-area">
+			<P>&copy; Fast-Food-Fast Challenge 2018</P>
+		</div>
+	</div>
+</div>
+<script src="../static/js/main.js"></script>
+</body>
+</html>

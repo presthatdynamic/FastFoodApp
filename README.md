@@ -16,3 +16,4 @@ I have done this split up for a better understanding of different functionalitie
 This folder contains all the static files like images and the css stylesheets.
 ### 3.templates
 This directory contains all the HTML files that need to be rendered.
+

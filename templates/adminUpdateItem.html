@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fast-Food | Admin Update</title>
+    <link href="../static/css/main.css" rel="stylesheet" />   
+</head>
+<body class="">
+<!--Header section-->
+<header>
+	<!--Navigation section -->
+    <div class="nav-section">
+        <div class="row">
+			<div class="col-2 user-area">
+                <img src="../static/images/fast-food-bgd.jpg">
+            </div>
+            <div class="col-6">
+                <ul>
+					<li>
+                        <a href="adminUpdateItem.html" class="active">Food List</a>
+                    </li>
+                    <li>
+                        <a href="orderItemList.html" class="">Orders List</a>
+                    </li>               
+                </ul>
+            </div>            
+        </div>
+    </div>
+</header>
+<!--the body section -->
+<div class="body-section">
+    <div class="row userAdmin-dashboard-content">
+        <div class="">
+                <!-- the begining of the tables -->
+               <a href="addItem.html"><button class="add-item" id="add-food">Add +</button></a>
+                <table id="myTable">
+                    <tr class="header">
+                        <th style="width:10%;">Image</th>
+                        <th style="width:10%;">Item Name</th>
+                        <th style="width:40%;">Description</th>
+                        <th style="width:15%;">Price</th>
+                        <th style="width:15%;">operations</th>
+
+                    </tr>
+                    <tr>
+                        <td><img src="../static/images/Chicken-combo.jpg" class="image-circle-3"></td>
+                        <td>2 Pc. Chicken – Combo</td>
+                        <td>
+                           Grilled Chicken Cool Wrap Close nutrition, ingredients, & allergens information. Ingredients. Flatbread
+						   (water, enriched wheat flour [wheat flour, malted.)
+
+                        </td>
+                        <td><em>price:20,000Ugshs</em></td>
+                        <td>
+                            <button class="button-success" >Update</button>
+                            <button class="button-danger" >Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img src="../static/images/Doublicious Sandwich–Combo.jpg" class="image-circle-3"></td>
+                        <td>Doublicious Sandwich – Combo</td>
+                        <td>
+                            Consetetur sadipscing elitr,  sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, 
+							sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+							takimata sanctus est Lorem.
+
+                        </td>
+                        <td><em>price:25,000Ugshs</em></td>
+                        <td>
+                            <button class="button-success">Update</button>
+                            <button class="button-danger">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                       <td><img src="../static/images/Popcorn-Nuggets-Combo.jpg" class="image-circle-3"></td>
+                        <td>Popcorn Nuggets – Combo</td>
+                        <td>
+                            am liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. 
+							Lorem ipsum dolor sit amet, consectetuer
+
+                        </td>
+                        <td><em>price:15,000Ugshs</em></td>
+                        <td>
+                            <button class="button-success">Update</button>
+                            <button class="button-danger">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                      <td><img src="../static/images/Mashed-Potatoes.jpg" class="image-circle-3"></td>
+                        <td>Mashed Potatoes</td>
+                        <td>
+                            am liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
+							Lorem ipsum dolor sit amet, consectetuer
+
+                        </td>
+                        <td><em>price:13,000Ugshs</em></td>
+                        <td>
+                            <button class="button-success">Update</button>
+                            <button class="button-danger">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img src="../static/images/Mac-Cheese.jpg" class="image-circle-3"></td>
+                        <td>Mac & Cheese</td>
+                        <td>
+                            Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
+							vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent
+							luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+							sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+
+                        </td>
+                        <td><em>price:15,000Ugsh</em></td>
+                        <td>
+                            <button class="button-success">Update</button>
+                            <button class="button-danger">Delete</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img src="../static/images/Chicken-Box.jpg" class="image-circle-3"></td>
+                        <td>3 Pc. Chicken Box</td>
+                        <td>
+                            Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat 
+							nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue 
+							duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh 
+							euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                        </td>
+                        <td><em>price:28,000Ugshs</em></td>
+                        <td>
+                            <button class="button-success">Update</button>
+                            <button class="button-danger">Delete</button>
+                        </td>
+                    </tr>
+                </table>
+        </div>
+    </div>
+</div>
+
+</div>
+<div>
+    <!--- modal boxes for adding food to the list-->
+    <div class="row">
+        <div class="modal" id="add-food-modal">
+            <div class="col-4">
+                <P></P>
+            </div>
+            <div class="col-4">
+                <span class="close">&times;</span>
+                <div class="form-area-section">
+                    <h1 class="text-white text-large">add food Item details</h1>
+                    <form method="post" action="">
+                        <div>
+                            <label for="location" class="text-white">Item name</label>
+                            <input type="text" name="food-name" id="location" class="form-control">
+                        </div>
+                        <div>
+                            <label for="price" class="text-white">price</label>
+                            <input type="text" name="price" id="price" class="form-control">
+                        </div>
+                        <div>
+                            <label for="food-image" class="text-white">image</label>
+                            <input type="file" name="food-image" id="food-image" class="form-control">
+                        </div>
+                        <div>
+                            <label for="food-desc" class="text-white"> description</label>
+                            <textarea name="food-desc" id="food-desc" class="form-control">
+                            </textarea>
+                        </div>
+                        <div>
+                        </div>
+                        <div>
+                            <input type="submit" name="submit"  value="order now" id="submit" class="button-sunshine-outline-order">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--- the footer section of the app--->
+<div class="footer-section2">
+    <div class="footer-area">
+    </div>
+    <div class="copy-right-area">
+        <P>&copy; Fast-Food-Fast Challenge 2018</P>
+    </div>
+</div>
+<script src="../static/js/main.js"></script>
+</body>
+</html>

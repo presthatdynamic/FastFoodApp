@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fast-Food | Order-decide</title>
+    <link href="../static/css/main.css" rel="stylesheet" />   
+</head>
+<body class="">
+<!--Header section-->
+<header>
+	 <!--Navigation section -->
+    <div class="nav-section">
+        <div class="row">
+			<div class="col-2 user-area">
+                <img src="../static/images/fast-food-bgd.jpg">
+            </div>
+            <div class="col-6">
+                <ul>
+					<li>
+                        <a href="adminUpdateItem.html">Food List</a>
+                    </li>
+                    <li>
+                        <a href="orderItemList.html" class="active">Orders List</a>
+                    </li>               
+                </ul>
+            </div>
+            
+        </div>
+
+    </div>
+</header>
+<!--the body section -->
+<div class="body-section">
+    <div class="row userAdmin-dashboard-content">
+        <div class="">
+            <!-- the begining of the tables -->
+            <table id="myTable">
+                <tr class="header">
+                    <th style="width:10%;">Image</th>
+                    <th style="width:10%;">Food Item</th>
+                    <th style="width:10%;">Customer</th>
+                    <th style="width:10%;">Mode of Delivery</th>
+                    <th style="width:10%;">price</th>
+                    <th style="width:10%;">Accept</th>
+                    <th style="width:10%;">Completed</th>
+                    <th style="width:10%;">Action</th>
+
+                </tr>
+                <tr>
+                    <td><img src="../static/images/Chicken-combo.jpg" class="image-circle-3"></td>
+                    <td>2 Pc. Chicken – Combo</td>
+                    <td>Agatha</td>
+                    <td>to deliver</td>
+                    <td><em>price:20,000Ugshs</em></td>
+					<td><input type="checkbox" name="food" value="csd" class="form-control"/></td>
+                    <td><input type="checkbox" name="food" value="Completed" class="form-control" checked /></td>
+                    <td><button id="Completion" class="button-success">Submit</button></td></td>
+                </tr>
+                <tr>
+                    <td><img src="../static/images/Mashed-Potatoes.jpg" class="image-circle-3"></td>
+				    <td>Mashed Potatoes</td>
+					<td>Precious</td>
+                    <td>to collect</td>
+                    <td><em>price:13,000Ugshs</em></td>
+                    <td><input type="checkbox" name="food" value="csd" class="form-control" checked /></td>
+                    <td><input type="checkbox" name="food" value="Completed" class="form-control" /></td>
+                    <td><button id="Completion1" class="button-success">Submit</button></td></td>
+                </tr>
+                <tr>
+                    <td><img src="../static/images/Popcorn-Nuggets-Combo.jpg" class="image-circle-3"></td>
+					<td>Popcorn Nuggets – Combo</td>
+                    <td>Preston Stuart</td>
+                    <td>to deliver</td>
+                    <td><em>price:15,000Ugshs</em></td>
+                    <td><input type="checkbox" name="food" value="csd" class="form-control" checked /></td>
+                    <td><input type="checkbox" name="food" value="Completed" class="form-control" /></td>
+                    <td><button id="Completion2" class="button-success">Submit</button></td></td>
+                </tr>
+                <tr>
+                    <td><img src="../static/images/Doublicious Sandwich–Combo.jpg" class="image-circle-3"></td>
+					<td>Doublicious Sandwich – Combo</td>
+                    <td>Kevin Hart</td>
+                    <td>to deliver</td>
+                    <td><em>price:25,000Ugshs</em></td>
+                    <td><input type="checkbox" name="food" value="Accept" class="form-control"/></td>
+                    <td><input type="checkbox" name="food" value="Completed" class="form-control" checked /></td>
+                    <td><button class="button-success">Submit</button></td></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<!--- the footer section of the app--->
+<div class="footer-section2">
+    <div class="footer-area">
+    </div>
+    <div class="copy-right-area">
+        <P>&copy; Fast-Food-Fast Challenge 2018</P>
+    </div>
+</div>
+<script src="../static/js/main.js"></script>
+</body>
+</html>

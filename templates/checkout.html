@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fast-Food | Checkout</title>
+    <link href="../static/css/main.css" rel="stylesheet" />    
+</head>
+<body class="content-with-image2">
+<!--Header section-->
+<header>
+	<!--Navigation section -->
+    <div class="nav-section">
+        <div class="row">
+			<div class="col-2 user-area">
+                <img src="../static/images/fast-food-bgd.jpg">
+            </div>
+            <div class="col-6">
+                <ul>
+					<li>
+                        <a href="index.html" class="">Order Now!</a>
+                    </li>
+                    <li>
+                        <a href="userOrderHistory.html" class="">My Order History</a>
+                    </li>   
+					<li>
+                        <a href="cart.html" class="">Add to Cart</a>
+                    </li>
+					<li>
+                        <a href="#" class="active">Checkout</a>
+                    </li>
+                </ul>
+            </div>            
+        </div>
+    </div>
+</header>
+<!--the body section -->
+<div class="body-section">
+    <div class="row">
+        <div class="">
+            <div class="col-4">
+                <P></P>
+            </div>
+            <div class="col-4">
+                <div class="form-area-section">
+                    <h3 class="text-white text-large">Verify your Payment details</h3>
+				<form action="/checkout" method="post">
+					Name on Card
+					<input type="text" name="Name",placeholder="Name on Card" value="Preston" class="form-control"/><br/><br/>Card no.
+					<input type="text" name="cardno",placeholder="Card no." value="1245345" class="form-control"/><br/><br/>Billing addr:
+					<input type="text" name="addr",placeholder="Address" value="Kireka, kampala" class="form-control"/><br/><br/>cvv
+					<input type="password" name="cvv",placeholder="cvv" value="presthat92" class="form-control"/><br/><br/>
+					<input class="btn btn-default" type="submit" value="Confirm and pay" class="form-control">
+				</form>
+				</div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--- the footer section of the app--->
+<div class="footer-section2">
+    <div class="footer-area">
+    </div>
+    <div class="copy-right-area">
+        <<P>&copy; Fast-Food-Fast Challenge 2018</P>
+    </div>
+</div>
+<script src="../static/js/main.js"></script>
+</body>
+</html>
